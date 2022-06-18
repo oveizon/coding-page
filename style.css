@@ -1,0 +1,121 @@
+
+
+body {
+    background-color: hsl(0, 100%, 74%);;
+}
+
+main {
+
+    display: flex;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    width: 70%;
+}
+
+@media screen and (max-width: 1440px){
+    /*desktop screens*/
+    body{
+        background-image: url("images/bg-intro-desktop.png");
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    /*mobile screens*/
+    main,body{ 
+          width: 100%;
+          background-image: url("images/bg-intro-mobile.png");
+          display: block;
+          box-sizing: border-box;
+        
+    }
+    .two,.box{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+}
+
+.two {
+    margin: 0%;
+    padding: 10px;
+    width: auto;
+
+}
+
+
+.three {
+    background-color: whitesmoke;
+    height: 100%;
+    padding: 5% 5% 5% 5% ;
+    width: 60vh;
+    border-radius: 2%;
+    text-align: center;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+h1,
+span {
+    color: whitesmoke;
+
+}
+
+.top {
+    background-color: hsl(248, 32%, 49%);
+    border-color: hsl(248, 32%, 49%);
+    padding: 10px;
+    width: 63vh;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow:  0 6px 4px 0 rgba(0, 0, 0, 0.2) ;
+    
+
+}
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px;
+    margin: 10px;
+    color: whitesmoke;
+    border-color: hsl(154, 59%, 51%);
+    border-radius: 1%;
+    cursor: pointer;  
+    
+}
+
+
+input:hover{
+   border-color: hsl(249, 10%, 26%);
+   color: hsl(249, 10%, 26%) ;
+}
+
+input:active{
+    border-color:hsl(0, 100%, 74%) ;
+    color: hsl(0, 100%, 74%);
+ }
+ 
+
+
+.box {
+    width: 55vh;
+    height: 7vh;
+    margin: 1vh;
+    border-radius: 5px;
+}
+
+footer{
+    color:  hsl(246, 25%, 77%);
+    font-size: 40%;
+}
+.pt{
+    color: red;
+}
